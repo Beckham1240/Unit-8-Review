@@ -32,6 +32,7 @@ th, td{
 }
 
 /* Table Caption Styles */
+/*centers the caption and places it at the bottom*/
 caption{
    caption-side: bottom;
    text-align: center;
@@ -39,15 +40,43 @@ caption{
 
 
 /* Table Column Styles */
-
+/*establishes the widths and the background color of certain columns*/
+col.timeColumn{
+   width: 10%;
+   background-color: rgb(215,205,151);
+}
+col.wDayColumns{
+   width: 11%;
+   background-color: rgb(236,255,211);
+}
+col.wEndColumns{
+   width: 17%;
+   background-color: rgb(255,231,255);
+}
 
 
 /* Table Header Styles */
-
+thead{
+   color: white;
+   background-color: rgb(105,177,60);
+}
+th:first-of-type{
+   background-color: rgb(153,86,7);
+}
+thead th:nth-of-type(7){
+   background-color: rgb(153,0,153);
+}
+thead th:nth-of-type(8){
+   background-color: rgb(153,0,153);
+}
 
 
 /* Table Footer Styles */
-
+/*changes the font to white and background color to black*/
+tfoot{
+   color: white;
+   background-color: black;
+}
 
 
 
